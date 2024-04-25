@@ -10,17 +10,23 @@
 
 /*General Styles*/
 body {
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     /*Generic Project Styles*/
     color: #3a3a3a;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*Header*/
 header {
-    background-color:aqua;
+    background-color: aqua;
+}
+
+h1 {
+    font-family: 'Original Surfer', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*Main Content*/
