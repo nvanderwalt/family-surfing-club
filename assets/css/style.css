@@ -217,3 +217,28 @@ main {
         border-bottom: 1px solid #0f5099;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    /*Reasons Section*/
+
+    #benefits {
+        display:flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex:1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #benefits-mental > div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical > div {
+        align-self: flex-end;
+    }
+}
