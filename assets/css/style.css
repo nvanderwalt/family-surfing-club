@@ -144,10 +144,11 @@ main {
     max-height: 300px;
 }
 
-#benefits-image {
+#reason-image {
     display:flex;
     align-items:center;
     justify-content:center;
+    margin-top: 20px;
 }
 
 section > h2 {
@@ -158,7 +159,7 @@ div > h3 {
     margin-top: 20px;
 }
 
-#benefits {
+#reasons {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
