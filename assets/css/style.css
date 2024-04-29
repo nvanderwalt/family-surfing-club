@@ -115,7 +115,7 @@ main {
 
 #cover-text {
     background-color: #9ce0ff00;
-    font-size: 130%;
+    font-size: 140%;
     position: absolute;
     top: 100px;
     width: 100%;
@@ -131,8 +131,8 @@ main {
 
 #cover-text > h3 {
     font-size: 90%;
+    margin-top: 20px;
 }
-
 
 #circle-cover-bg {
     background: url("../images/pexels-nurseryart-366666.jpg") no-repeat top center / cover;
@@ -148,6 +148,20 @@ main {
     display:flex;
     align-items:center;
     justify-content:center;
+}
+
+section > h2 {
+    text-align: center;
+}
+
+div > h3 {
+    margin-top: 20px;
+}
+
+#benefits {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*Meetup times section*/
@@ -187,18 +201,21 @@ main {
 }
 
 /* Form */
+
 #signup {
     background-image: url("../images/pexels-earano-1350197.jpg");
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 40px 10% 0 10%;
     flex-grow: 1;
 }
 
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
+    padding: 40px;
+    border-width: 10px;
+    border-color: #3a3a3a;
 }
 
 #signup-form>h2 {
@@ -260,11 +277,12 @@ main {
 
     /*Header*/
     nav {
-        display: block;
+        display: flex;
         position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        max-height: 10px;
     }
 
     #menu {
