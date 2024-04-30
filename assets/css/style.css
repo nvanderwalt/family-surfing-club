@@ -42,6 +42,13 @@ header {
     align-items: baseline;
 }
 
+#logo {
+    font-size: 150%;
+    line-height: 30px;
+    margin: 0 0.5rem;
+    text-align: center;
+}
+
 header a {
     text-decoration: wavy;
     color: inherit;
@@ -73,7 +80,7 @@ nav {
     padding: 8px 8px;
     box-shadow: 0 2px 2px #76cbf3;
     display: none;
-    top: 100%
+    top: 100%;
 }
 
 /*Nav toggle*/
@@ -115,7 +122,7 @@ main {
 
 #cover-text {
     background-color: #9ce0ff00;
-    font-size: 140%;
+    font-size: 120%;
     position: absolute;
     top: 100px;
     width: 100%;
@@ -125,11 +132,12 @@ main {
     text-align: center;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
 }
 
-#cover-text > h3 {
+#cover-text>h3 {
     font-size: 90%;
     margin-top: 20px;
 }
@@ -138,24 +146,24 @@ main {
     background: url("../images/pexels-nurseryart-366666.jpg") no-repeat top center / cover;
     height: 80vw;
     width: 80vw;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
 }
 
 #reason-image {
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 20px;
 }
 
-section > h2 {
+section>h2 {
     text-align: center;
 }
 
-div > h3 {
+div>h3 {
     margin-top: 20px;
 }
 
@@ -178,16 +186,16 @@ div > h3 {
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
-    flex-basis:200px;
-    flex-grow:1;
+    flex-basis: 200px;
+    flex-grow: 1;
     border: 2px solid whitesmoke
 }
 
 #times h3 {
-    color:whitesmoke
+    color: whitesmoke
 }
 
-#class-times > h2 {
+#class-times>h2 {
     text-align: center;
 }
 
@@ -265,12 +273,40 @@ div > h3 {
     color: #0f5099;
 }
 
+@media screen and (min-width: 376px) {
+
+    #signup-form {
+        max-width: 400px;
+        position: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    #logo {
+        font-size: 200%;
+        line-height: 50px;
+        margin: 0 0.5rem;
+        text-align: center;
+        max-width: 11em;
+    }
+}
+
 /*Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+
     #pictures {
         column-count: 2;
         column-gap: 0;
     }
+
+    #logo {
+        font-size: 250%;
+        line-height: 50px;
+        margin: 0;
+        text-align: center;
+        max-width: 11em;
+    }
+
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -300,15 +336,18 @@ div > h3 {
 
     #logo {
         font-size: 280%;
-        line-height: 75px;
+        line-height: 50px;
         margin: 0 0.5rem;
         text-align: center;
+        min-height: 100px;
+        display:flex;
+        justify-content: center;
     }
 
     /*Main Content*/
     main {
         /* Push Main content up to allign with shadow-box of header*/
-        margin-top: 77px;
+        margin-top: 80px;
     }
 
     /*Reasons section*/
@@ -342,9 +381,8 @@ div > h3 {
 
     #signup-form {
         max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
+        position: flex;
+        justify-content: center;
     }
 
     .text-input:hover {
@@ -361,33 +399,16 @@ div > h3 {
     #menu a:hover {
         border-bottom: 1px solid #0f5099;
     }
-}
 
-@media screen and (min-width: 1200px) {
-    /*Reasons Section*/
+    #hero {
+        height: 600px;
+        width: 100%;
+        background: url("../images/pexels-alexandre-saraiva-carniato-583650-1722028.jpg") no-repeat center center/cover;
+    }
 
-    #benefits {
+    #logo {
         display:flex;
-        flex-direction: row;
+        justify-content: center;
     }
 
-    #benefits > div {
-        flex:1;
-    }
-
-    #benefits-image {
-        order: 0;
-    }
-
-    #benefits-mental > div {
-        align-self: flex-start;
-    }
-
-    #benefits-physical > div {
-        align-self: flex-end;
-    }
-
-    #pictures {
-        column-count: 4;
-    }
 }
