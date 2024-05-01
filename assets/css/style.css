@@ -45,7 +45,7 @@ header {
     width: 100%;
     box-shadow: 0 4px 2px #76cbf3;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -216,14 +216,18 @@ main {
     padding: 20px 40px;
 }
 
+#bottom-reasons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .reason-image {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-
-
 }
 
 /*Meetup times section*/
@@ -336,7 +340,7 @@ main {
     }
 
     #cover-text {
-        font-size: 150%; 
+        font-size: 150%;
     }
 }
 
@@ -389,7 +393,7 @@ main {
         margin: 0 0.5rem;
         text-align: center;
         min-height: 100px;
-        display:flex;
+        display: flex;
         justify-content: center;
     }
 
@@ -400,54 +404,45 @@ main {
     }
 
     #cover-text {
-        font-size: 220%; 
+        font-size: 220%;
     }
 
     /*Reasons section*/
 
-    /* club ethos */
-
     #reasons {
-        text-align: ;
-        height: 600px;
+        text-align: center height: 600px;
     }
 
-    #left-reasons {
+    #top-reasons-1 {
+        display: flex;
+        justify-content: space-around;
         padding-top: 30px;
-        width: 33%;
-        float: left;
+        width: 100%;
+        align-content: baseline;
     }
 
     #right-reasons {
+        display: flex;
+        justify-content: space-between;
         padding-top: 30px;
-        width: 33%;
-        float: right;  
+        width: 50%;
+        align-content:normal;
     }
 
     #center-reasons {
-        width: 33%;
-        margin: 0 auto;  
+        width: 50%;
+        margin: 0 auto;
     }
 
-    .left-reasons-heading {
-        width: 60%;
-        float: right;
+    .top-reasons-heading {
+        width: 50%;
         line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-    }
-
-    .right-reasons-heading {
-        width: 60%;
-        float: left;
-        line-height: 20px;
-        clear: both;
         margin-bottom: 50px;
     }
 
     .mid-reasons-heading {
         width: 60%;
-        float:none;
+        float: none;
         line-height: 20px;
         clear: both;
         margin-bottom: 50px;
@@ -456,7 +451,7 @@ main {
     .right-reasons-heading h2 {
         text-align: right;
     }
-    
+
     .right-reasons-heading p {
         text-align: right;
     }
@@ -466,42 +461,42 @@ main {
     }
 }
 
-    /* Form */
+/* Form */
 
-    #signup {
-        background-image: url("../images/pexels-earano-1350197.jpg");
-        background-size: cover;
-        background-position: 75%;
-        padding: 40px 10% 0 10%;
-        flex-grow: 1;
-    }
-    
-    #signup-form {
-        color: #ffffff;
-        background-color: rgba(60, 60, 60, 0.6);
-        padding: 40px;
-        border-width: 10px;
-        border-color: #3a3a3a;
-    }
+#signup {
+    background-image: url("../images/pexels-earano-1350197.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 40px 10% 0 10%;
+    flex-grow: 1;
+}
 
-    main {
-        flex: 1 0 auto;
-        margin-top: 40px;
-    }
-    
-    #signup-form>h2 {
-        color: #fafafa;
-        margin-bottom: 20px;
-    }
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 40px;
+    border-width: 10px;
+    border-color: #3a3a3a;
+}
 
-    .text-input:hover {
-        border-color: #fafafa;
-    }
+main {
+    flex: 1 0 auto;
+    margin-top: 40px;
+}
 
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
-    }
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input:hover {
+    border-color: #fafafa;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+}
 
 /*Large devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
@@ -516,14 +511,14 @@ main {
     }
 
     #logo {
-        display:flex;
+        display: flex;
         justify-content: center;
     }
 
     #cover-text {
         font-size: 250%;
     }
-    
+
     #signup-form {
         color: #ffffff;
         background-color: rgba(60, 60, 60, 0.6);
