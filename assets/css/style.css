@@ -31,9 +31,9 @@ h3 {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
+    border-top: 1px solid #0f5099;
+    width: 90%;
+    margin: auto;
 }
 
 /*Header*/
@@ -426,7 +426,7 @@ main {
         justify-content: space-between;
         padding-top: 30px;
         width: 50%;
-        align-content:normal;
+        align-content: normal;
     }
 
     #center-reasons {
