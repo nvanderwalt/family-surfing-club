@@ -38,15 +38,17 @@ header {
     width: 100%;
     box-shadow: 0 4px 2px #76cbf3;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    justify-content:space-between;
+    align-items: center;
 }
 
 #logo {
     font-size: 150%;
-    line-height: 30px;
+    line-height: 37px;
     margin: 0 0.5rem;
     text-align: center;
+    align-content: center;
+    align-items: center;
 }
 
 header a {
@@ -114,7 +116,7 @@ main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 20px;
+    margin-top: 30px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
@@ -143,7 +145,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url("../images/pexels-nurseryart-366666.jpg") no-repeat top center / cover;
+    background: url("../images/Surf-cirle.jpg") no-repeat top center / cover;
     height: 80vw;
     width: 80vw;
     margin-bottom: 10px;
@@ -210,7 +212,6 @@ div>h3 {
 }
 
 /* Form */
-
 #signup {
     background-image: url("../images/pexels-earano-1350197.jpg");
     background-size: cover;
@@ -275,19 +276,16 @@ div>h3 {
 
 @media screen and (min-width: 376px) {
 
-    #signup-form {
-        max-width: 400px;
-        position: flex;
-        justify-content: center;
-        margin-top: 50px;
-    }
-
     #logo {
         font-size: 200%;
         line-height: 50px;
         margin: 0 0.5rem;
         text-align: center;
         max-width: 11em;
+    }
+
+    #cover-text {
+        font-size: 150%; 
     }
 }
 
@@ -350,22 +348,36 @@ div>h3 {
         margin-top: 80px;
     }
 
+    #cover-text {
+        font-size: 220%; 
+    }
+
     /*Reasons section*/
-    #benefits-physical,
-    #benefits-mental {
-        display:flex;
-        flex-direction:column;
-        width:100%;
+
+    /* club ethos */
+
+    #reasons {
+        height: 600px;
     }
 
-    #benefits-physical > div
-    #benefits-mental > div {
-        width:75%;
+    #left-reasons {
+        padding-top: 30px;
+        width: 33%;
+        float: left;
+        background-color: blue;
     }
 
-    #benefits-mental > div {
-        text-align:end;
-        align-self:flex-end;
+    #right-reasons {
+        padding-top: 30px;
+        width: 33%;
+        float: right;
+        background-color: silver;
+    }
+
+    #center-reasons {
+        width: 33%;
+        margin: 0 auto;
+        background-color: green;
     }
 
     #pictures {
@@ -374,19 +386,41 @@ div>h3 {
 }
 
     /* Form */
+
     #signup {
-        background-position: center;
-        position: relative;
+        background-image: url("../images/pexels-earano-1350197.jpg");
+        background-size: cover;
+        background-position: 75%;
+        padding: 40px 10% 0 10%;
+        flex-grow: 1;
+    }
+    
+    #signup-form {
+        color: #ffffff;
+        background-color: rgba(60, 60, 60, 0.6);
+        padding: 40px;
+        border-width: 10px;
+        border-color: #3a3a3a;
     }
 
-    #signup-form {
-        max-width: 400px;
-        position: flex;
-        justify-content: center;
+    main {
+        flex: 1 0 auto;
+        margin-top: 40px;
+    }
+
+    #cover-text>h3 {
+        font-size: 200%;
+        margin-top: 4em;
+    }
+
+    
+    #signup-form>h2 {
+        color: #fafafa;
+        margin-bottom: 20px;
     }
 
     .text-input:hover {
-        border-color: #f16c6b;
+        border-color: #fafafa;
     }
 
     .join-button:hover {
@@ -411,4 +445,17 @@ div>h3 {
         justify-content: center;
     }
 
+    #cover-text {
+        font-size: 250%;
+    }
+    
+    #signup-form {
+        color: #ffffff;
+        background-color: rgba(60, 60, 60, 0.6);
+        padding: 40px;
+        border-width: 10px;
+        border-color: #3a3a3a;
+        position: relative;
+        object-position: center;
+    }
 }
