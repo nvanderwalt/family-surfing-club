@@ -10,15 +10,20 @@ The website also host a gallery where users can see pictures of the surf classes
 
 ## Features
 
-### Navigation
+### Header and Navigation
 
 * Featured at the top of the page is the navigation bar where the logo is positioned in the left corner. The logo is a link to the home page and can be seen on all the pages.
 * The navigation panel is to the top-right of the page. It includes access to home,gallery and sign up pages respectively and changes to a hamburger button on smaller devices.
 * The navigation is kept in simple format to ensure user-friendly application and is easy to read to improve accessibility.
+* The header is also a link to the home page and the nav bar indicates which page is active by underlining the active page.
+* The custom font 'Original Surfer' was selected to create a fun-easy-going atmosphere and is well suited for the website.
 
 ![Screenshot 2024-05-02 155828](https://github.com/nvanderwalt/Kids-Surfing-Club/assets/167864987/24f8d4f7-1b2e-4a65-8baf-85944ed1fb15)
 
-### Navigation
+### Hero Image
+
+* The hero image is a surfer in the ocean with a text that explains to users that the ocean is where freedom begins.
+* The location "Bali" is also indicated in the cover text so users can instantly know where these events take place. 
 
 
 ## Getting Started
