@@ -1,10 +1,15 @@
-# Project Title
+# Family Surfing Club
 
-Simple overview of use/purpose.
+The Family Surfing Club is a landing page for families that are interested in learning to surf in Bali.
+At the club we provide professional surfing guidance to children and parents with all safety precautions in place.
 
-## Description
+On this site users are able to see our class times,locations,pricing as well as receive a sign up form where the club will contact them back via email after registration. 
+The website also host a gallery where users can see pictures of the surf classes.
 
-An in-depth paragraph about your project and overview of use.
+## Features
+
+### Navigation
+
 
 ## Getting Started
 
