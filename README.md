@@ -25,8 +25,13 @@ The website also host a gallery where users can see pictures of the surf classes
 * The hero image is a surfer in the ocean with a text that explains to users that the ocean is where freedom begins.
 * The location "Bali" is also indicated in the cover text so users can instantly know where these events take place. 
 
+![Screenshot 2024-05-02 161246](https://github.com/nvanderwalt/Kids-Surfing-Club/assets/167864987/45982227-c2f1-46ab-a21b-fe9e5063aa3e)
 
-## Getting Started
+### Reasons to surf
+
+*The website describes to the user why it is a good idea to join the club and all the benefits surfing provides.
+*Each reason have a fitting image accompanied with it.
+
 
 ### Dependencies
 
