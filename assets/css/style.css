@@ -272,8 +272,8 @@ main {
 #signup {
     background-image: url("../images/pexels-earano-1350197.jpg");
     background-size: cover;
-    background-position: 75%;
-    padding: 40px 10% 0 10%;
+    background-position: 100%;
+    padding: 70px 10% 10% 10%;
     flex-grow: 1;
 }
 
@@ -283,6 +283,7 @@ main {
     padding: 40px;
     border-width: 10px;
     border-color: #3a3a3a;
+    max-width: 500px;
 }
 
 #signup-form>h2 {
@@ -373,7 +374,7 @@ main {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 0.5rem;
         max-height: 10px;
     }
 
@@ -390,8 +391,8 @@ main {
     }
 
     #logo {
-        font-size: 280%;
-        line-height: 50px;
+        font-size: 270%;
+        line-height: 70px;
         margin: 0 0.5rem;
         text-align: center;
         min-height: 100px;
@@ -463,43 +464,14 @@ main {
     #pictures {
         column-count: 3;
     }
-}
 
-/* Form */
-
-#signup {
-    background-image: url("../images/pexels-earano-1350197.jpg");
-    background-size: cover;
-    background-position: 75%;
-    padding: 40px 10% 0 10%;
-    flex-grow: 1;
-}
-
-#signup-form {
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 40px;
-    border-width: 10px;
-    border-color: #3a3a3a;
-}
-
-main {
-    flex: 1 0 auto;
-    margin-top: 40px;
-}
-
-#signup-form>h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input:hover {
-    border-color: #fafafa;
-}
-
-.join-button:hover {
-    background-color: #fafafa;
-    color: #454b1b;
+    #signup {
+        display:absolute;
+        background-image: url("../images/2\ Guys\ on\ beach.jpg");
+        background-size:cover
+        padding: 100px 10% 0 10%;
+        flex-grow: 1;
+    }
 }
 
 /*Large devices (laptops and desktops, 992px and up)*/
@@ -528,15 +500,5 @@ main {
         top:500px;
         color: #fafafa;
         padding-top: 200px;
-    }
-
-    #signup-form {
-        color: #ffffff;
-        background-color: rgba(60, 60, 60, 0.6);
-        padding: 40px;
-        border-width: 10px;
-        border-color: #3a3a3a;
-        position: relative;
-        object-position: center;
     }
 }
