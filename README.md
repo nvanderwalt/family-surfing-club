@@ -32,8 +32,12 @@ The website also host a gallery where users can see pictures of the surf classes
 *The website describes to the user why it is a good idea to join the club and all the benefits surfing provides.
 *Each reason have a fitting image accompanied with it.
 
+![Screenshot 2024-05-02 161349](https://github.com/nvanderwalt/Kids-Surfing-Club/assets/167864987/67ae89ae-d18e-42f6-b2ad-24b0ae0e545a)
 
-### Dependencies
+### Time and Place Bar
+
+*The website contain a bar with all the relevant information i.e time, location, price and age group.
+
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
