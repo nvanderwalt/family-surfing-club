@@ -16,6 +16,8 @@ The website also host a gallery where users can see pictures of the surf classes
 * The navigation panel is to the top-right of the page. It includes access to home,gallery and sign up pages respectively and changes to a hamburger button on smaller devices.
 * The navigation is kept in simple format to ensure user-friendly application and is easy to read to improve accessibility.
 
+![Screenshot 2024-05-02 155828](https://github.com/nvanderwalt/Kids-Surfing-Club/assets/167864987/ca8cb05f-9807-48fe-a2a4-c2dd99bc154e)
+
 ### Navigation
 
 
