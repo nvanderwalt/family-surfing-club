@@ -38,9 +38,14 @@ The website also host a gallery where users can see pictures of the surf classes
 
 *The website contain a bar with all the relevant information i.e time, location, price and age group.
 
+![Screenshot 2024-05-02 161414](https://github.com/nvanderwalt/Kids-Surfing-Club/assets/167864987/f7a809d8-16dc-46b3-ad3b-ec1dcf7123cd)
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+### Footer
+
+*The footer contain links to the club's social media pages if users should want more information regarding the club.
+
+
+
 
 ### Installing
 
