@@ -1,4 +1,4 @@
-# Family Surfing Club
+# Family Surfing Club :surfing_man:
 
 The Family Surfing Club is a landing page for families that are interested in learning to surf in Bali.
 At the club we provide professional surfing guidance to children and parents with all safety precautions in place.
@@ -9,6 +9,12 @@ The website also host a gallery where users can see pictures of the surf classes
 ![responsive_image](https://github.com/nvanderwalt/Kids-Surfing-Club/assets/167864987/1ff47e76-a9e3-404c-a7b7-6d874fe267b4)
 
 ## Features
+
+### Navigation
+
+* Featured at the top of the page is the navigation bar where the logo is positioned in the left corner. The logo is a link to the home page and can be seen on all the pages.
+* The navigation panel is to the top-right of the page. It includes access to home,gallery and sign up pages respectively and changes to a hamburger button on smaller devices.
+* The navigation is kept in simple format to ensure user-friendly application and is easy to read to improve accessibility.
 
 ### Navigation
 
