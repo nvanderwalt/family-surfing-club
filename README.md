@@ -6,6 +6,8 @@ At the club we provide professional surfing guidance to children and parents wit
 On this site users are able to see our class times,locations,pricing as well as receive a sign up form where the club will contact them back via email after registration. 
 The website also host a gallery where users can see pictures of the surf classes.
 
+![responsive_image](https://github.com/nvanderwalt/Kids-Surfing-Club/assets/167864987/d25197d8-0dca-46cc-9981-a1edf18f48f9)
+
 ## Features
 
 ### Navigation
