@@ -424,6 +424,14 @@ main {
         align-content: baseline;
     }
 
+    #top-reasons-2 {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 30px;
+        width: 100%;
+        align-content: baseline;
+    }
+
     #right-reasons {
         display: flex;
         justify-content: space-between;

@@ -61,52 +61,15 @@ The website also host a gallery where users can see pictures of the surf classes
 
   <img src="assets/images/form_readme.png">
 
+##Testing
+
+* I have tested that the page works in different browsers: Firefox, Chrome and Safari.
+* All the navigation functions work and there are no broken links.
+* The form requires the nessasary entries in every field and post the data to the right database.
+* HTML - No errors returned when validated with W3C validator
+* CSS - No errors were returned when passing through the Jigsaw validator.
+* There is enough contrast in the project to ensure that the project is easy to read.
+* Lighthouse in DevTools was used to test different aspects of the website and the results were acceptable.
 
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+##Unfixed Bugs
