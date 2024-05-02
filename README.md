@@ -29,21 +29,31 @@ The website also host a gallery where users can see pictures of the surf classes
 
 ### Reasons to surf
 
-*The website describes to the user why it is a good idea to join the club and all the benefits surfing provides.
-*Each reason have a fitting image accompanied with it.
+* The website describes to the user why it is a good idea to join the club and all the benefits surfing provides.
+* Each reason have a fitting image accompanied with it.
 
 ![Screenshot 2024-05-02 161349](https://github.com/nvanderwalt/Kids-Surfing-Club/assets/167864987/67ae89ae-d18e-42f6-b2ad-24b0ae0e545a)
 
 ### Time and Place Bar
 
-*The website contain a bar with all the relevant information i.e time, location, price and age group.
+* The website contain a bar with all the relevant information i.e time, location, price and age group.
 
 ![Screenshot 2024-05-02 161414](https://github.com/nvanderwalt/Kids-Surfing-Club/assets/167864987/f7a809d8-16dc-46b3-ad3b-ec1dcf7123cd)
 
 ### Footer
 
-*The footer contain links to the club's social media pages if users should want more information regarding the club.
+* The footer contain links to the club's social media pages if users should want more information regarding the club.
 
+![Screenshot 2024-05-02 161528](https://github.com/nvanderwalt/Kids-Surfing-Club/assets/167864987/453647f6-e866-4a55-b436-62c11a03f9fd)
+
+### Gallery
+
+* The club host a gallery on their page to share the surfing experience with the public.
+* The pictures are neatly stacked together to save real estate on the page and to give the gallery a rich feeling.
+  
+
+
+### Sign Up Form
 
 
 
