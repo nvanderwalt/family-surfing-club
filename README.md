@@ -51,9 +51,15 @@ The website also host a gallery where users can see pictures of the surf classes
 * The club host a gallery on their page to share the surfing experience with the public.
 * The pictures are neatly stacked together to save real estate on the page and to give the gallery a rich feeling.
   
-
+![Screenshot 2024-05-02 161438](https://github.com/nvanderwalt/Kids-Surfing-Club/assets/167864987/40e54344-f9f6-43d1-a63f-28d8e08d4937)
 
 ### Sign Up Form
+
+* The final page is a sign up page to new users.
+* This form ask the user their age catogory as well as other personal information.
+* The age catogory will be stored and users will be placed in different groups according to their age catogory.
+
+  
 
 
 
