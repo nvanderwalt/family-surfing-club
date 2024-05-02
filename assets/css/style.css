@@ -34,6 +34,8 @@ hr {
     border-top: 1px solid #0f5099;
     width: 90%;
     margin: auto;
+    max-width: 300px;
+    margin-bottom: 10px;
 }
 
 /*Header*/
@@ -140,7 +142,7 @@ main {
 
 #cover-text>h2,
 #cover-text>h3 {
-    color: #ffffff;
+    color: #fafafa;
 }
 
 #circle-cover-bg {
@@ -438,6 +440,8 @@ main {
         width: 50%;
         line-height: 20px;
         margin-bottom: 50px;
+        max-width: 400px;
+        padding
     }
 
     .mid-reasons-heading {
@@ -517,6 +521,13 @@ main {
 
     #cover-text {
         font-size: 250%;
+    }
+
+    #cover-text > h3 {
+        font-size: 300%;
+        top:500px;
+        color: #fafafa;
+        padding-top: 200px;
     }
 
     #signup-form {
