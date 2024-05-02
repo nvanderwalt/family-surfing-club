@@ -61,15 +61,67 @@ The website also host a gallery where users can see pictures of the surf classes
 
   <img src="assets/images/form_readme.png">
 
-##Testing
+## Testing
 
 * I have tested that the page works in different browsers: Firefox, Chrome and Safari.
 * All the navigation functions work and there are no broken links.
 * The form requires the nessasary entries in every field and post the data to the right database.
-* HTML - No errors returned when validated with W3C validator
-* CSS - No errors were returned when passing through the Jigsaw validator.
 * There is enough contrast in the project to ensure that the project is easy to read.
+
+### HTML
+* HTML - No errors returned when validated with W3C validator
+
+<img src="assets/images/W3S HTML.png">
+
+### CSS
+* CSS - No errors were returned when passing through the Jigsaw validator.
+
+<img src="assets/images/w3s CSS.png">
+
+### Lighthouse in Devtools
 * Lighthouse in DevTools was used to test different aspects of the website and the results were acceptable.
 
+<img src="assets/images/Lighthouse.png">
 
-##Unfixed Bugs
+## Bugs
+
+### Unfixed Bugs
+
+* No unfixed bugs
+
+### Bugs Fixed
+
+* During development a mistake was made by editing the readme file in bithub. The problem was solved with the help of a tutor form Code Institute by merging the files from github and gitpod.
+
+## Deployment
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. In Github repository, navigate to the settings tab.
+2. Select the Master Branch from the source section drop-down menu
+3. Once the master branch has been selected, the page provided the link to the completed website.
+
+The live link can be found here - 
+
+## Credits
+
+### Content
+
+* The base code to make the header, Form and the footer was taken from the CI Love Running Project and adjusted to fit this project.
+* A big thanks to the team at https://learn.codeinstitute.net/ who gave professional advice on fixing bugs.
+
+### Media
+* All images were taken from https://www.Pexels.com with their original authors aas follows:
+
+Photo by Kampus Production: https://www.pexels.com/photo/two-men-teaching-the-children-to-surf-6299932/
+
+https://www.pexels.com/photo/man-riding-surfboard-on-body-of-water-1667005/
+
+Photo by Ishan: https://www.pexels.com/photo/man-on-surfboard-surfing-on-wave-421788/
+
+Photo by Emiliano Arano: https://www.pexels.com/photo/close-up-photo-of-water-1350197/
+
+Photo by Kampus Production: https://www.pexels.com/photo/a-family-of-surfers-on-the-beach-6299920/
+
+Photo by Jacub Gomez: https://www.pexels.com/photo/man-jumps-from-cliff-to-water-1168742/
+
