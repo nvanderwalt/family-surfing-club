@@ -413,7 +413,7 @@ main {
     /*Reasons section*/
 
     #reasons {
-        text-align: center height: 600px;
+        text-align: center ;
     }
 
     #top-reasons-1 {
@@ -450,7 +450,6 @@ main {
         line-height: 20px;
         margin-bottom: 50px;
         max-width: 400px;
-        padding
     }
 
     .mid-reasons-heading {
@@ -474,9 +473,8 @@ main {
     }
 
     #signup {
-        display:absolute;
         background-image: url("../images/2\ Guys\ on\ beach.jpg");
-        background-size:cover
+        background-size:cover ;
         padding: 100px 10% 0 10%;
         flex-grow: 1;
     }
