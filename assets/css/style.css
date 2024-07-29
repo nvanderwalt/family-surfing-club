@@ -1,26 +1,23 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Original+Surfer&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by browser*/
+/* Asterisk wildcard selector to override default styles added by browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/*General Styles*/
+/* General Styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*Generic Project Styles*/
     color: #3a3a3a;
     font-family: 'Montserrat', sans-serif;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Original Surfer', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -38,7 +35,7 @@ hr {
     margin-bottom: 10px;
 }
 
-/*Header*/
+/* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -71,16 +68,15 @@ header a {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 8px;
-
 }
 
 .active {
     border-bottom: 2px solid #0f5099;
 }
 
-/*Navbar styles with dropdown toggle*/
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -92,8 +88,8 @@ nav {
     top: 100%;
 }
 
-/*Nav toggle*/
-#nav-toggle:checked~nav {
+/* Nav toggle */
+#nav-toggle:checked ~ nav {
     display: flex;
 }
 
@@ -105,28 +101,19 @@ nav {
     font-size: 2rem;
 }
 
-/*Main Content*/
+/* Main Content */
 main {
-    /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 83px;
+    display: flex;
+    flex-direction: column;
 }
 
-/*Hero section*/
+/* Hero section */
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/pexels-kampus-6299932.jpg") no-repeat center center/cover;
-}
-
-main {
-    /* Enlarge main element to push footer down*/
-    flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 30px;
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
+    background: url("../images/pexels-kampus-6299932.jpg") no-repeat center center / cover;
 }
 
 #cover-text {
@@ -140,79 +127,53 @@ main {
     text-align: center;
 }
 
-#cover-text>h2,
-#cover-text>h3 {
+#cover-text > h2, #cover-text > h3 {
     color: #fafafa;
+}
+
+/* Image backgrounds */
+#circle-cover-bg,
+#instructors-image,
+#health-image,
+#refresh-image,
+#friends-image,
+#nature-image {
+    height: 80vw;
+    width: 80vw;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #circle-cover-bg {
     background: url("../images/Surf-cirle.jpg") no-repeat top center / cover;
-    height: 80vw;
-    width: 80vw;
-    margin-bottom: 10px;
     border-radius: 50%;
     max-width: 250px;
     max-height: 250px;
 }
 
-#center-reasons-image {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
 #instructors-image {
     background: url("../images/Instructors.jpg") no-repeat top center / cover;
-    height: 80vw;
-    width: 80vw;
-    margin-bottom: 10px;
-    border-radius: 10%;
-    max-width: 200px;
-    max-height: 200px;
 }
 
 #health-image {
     background: url("../images/Health.jpg") no-repeat top center / cover;
-    height: 80vw;
-    width: 80vw;
-    margin-bottom: 10px;
-    border-radius: 10%;
-    max-width: 200px;
-    max-height: 200px;
 }
 
 #refresh-image {
     background: url("../images/Jump.jpg") no-repeat top center / cover;
-    height: 80vw;
-    width: 80vw;
-    margin-bottom: 10px;
-    border-radius: 10%;
-    max-width: 200px;
-    max-height: 200px;
 }
 
 #friends-image {
     background: url("../images/friends.jpg") no-repeat top center / cover;
-    height: 80vw;
-    width: 80vw;
-    margin-bottom: 10px;
-    border-radius: 10%;
-    max-width: 200px;
-    max-height: 200px;
 }
 
 #nature-image {
     background: url("../images/Nature.jpg") no-repeat top center / cover;
-    height: 80vw;
-    width: 80vw;
-    margin-bottom: 10px;
-    border-radius: 10%;
-    max-width: 200px;
-    max-height: 200px;
 }
 
+/* Reasons Section */
 #reasons {
     text-align: center;
     padding: 20px 40px;
@@ -232,10 +193,9 @@ main {
     margin-top: 20px;
 }
 
-/*Meetup times section*/
+/* Meetup times section */
 #times {
-    background: url("../images/pexels-ishan-139144-421788.jpg") no-repeat center/cover;
-    /*Handles responsivity without the need for a media query*/
+    background: url("../images/pexels-ishan-139144-421788.jpg") no-repeat center / cover;
     display: flex;
     flex-wrap: wrap;
 }
@@ -247,25 +207,25 @@ main {
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
-    border: 2px solid whitesmoke
+    border: 2px solid whitesmoke;
 }
 
 #times h3 {
-    color: whitesmoke
+    color: whitesmoke;
 }
 
-#class-times>h2 {
+#class-times > h2 {
     text-align: center;
 }
 
-/* Gallery page*/
+/* Gallery page */
+#pictures {
+    line-height: 0;
+}
+
 #pictures img {
     width: 100%;
     line-height: 1em;
-}
-
-#pictures {
-    line-height: 0;
 }
 
 /* Form */
@@ -286,7 +246,7 @@ main {
     max-width: 500px;
 }
 
-#signup-form>h2 {
+#signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -317,7 +277,7 @@ main {
     color: #fafafa;
 }
 
-/*Footer*/
+/* Footer */
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -332,8 +292,8 @@ main {
     color: #0f5099;
 }
 
+/* Media Queries */
 @media screen and (min-width: 376px) {
-
     #logo {
         font-size: 200%;
         line-height: 50px;
@@ -347,9 +307,7 @@ main {
     }
 }
 
-/*Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-
     #pictures {
         column-count: 2;
         column-gap: 0;
@@ -362,13 +320,9 @@ main {
         text-align: center;
         max-width: 11em;
     }
-
 }
 
-/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
-    /*Header*/
     nav {
         display: flex;
         position: relative;
@@ -382,7 +336,7 @@ main {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -400,9 +354,7 @@ main {
         justify-content: center;
     }
 
-    /*Main Content*/
     main {
-        /* Push Main content up to allign with shadow-box of header*/
         margin-top: 80px;
     }
 
@@ -410,21 +362,11 @@ main {
         font-size: 220%;
     }
 
-    /*Reasons section*/
-
     #reasons {
-        text-align: center ;
+        text-align: center;
     }
 
-    #top-reasons-1 {
-        display: flex;
-        justify-content: space-around;
-        padding-top: 30px;
-        width: 100%;
-        align-content: baseline;
-    }
-
-    #top-reasons-2 {
+    #top-reasons-1, #top-reasons-2 {
         display: flex;
         justify-content: space-around;
         padding-top: 30px;
@@ -445,26 +387,23 @@ main {
         margin: 0 auto;
     }
 
-    .top-reasons-heading {
-        width: 50%;
+    .top-reasons-heading, .mid-reasons-heading {
         line-height: 20px;
         margin-bottom: 50px;
+    }
+
+    .top-reasons-heading {
+        width: 50%;
         max-width: 400px;
     }
 
     .mid-reasons-heading {
         width: 60%;
         float: none;
-        line-height: 20px;
         clear: both;
-        margin-bottom: 50px;
     }
 
-    .right-reasons-heading h2 {
-        text-align: right;
-    }
-
-    .right-reasons-heading p {
+    .right-reasons-heading h2, .right-reasons-heading p {
         text-align: right;
     }
 
@@ -473,14 +412,13 @@ main {
     }
 
     #signup {
-        background-image: url("../images/2\ Guys\ on\ beach.jpg");
-        background-size:cover ;
+        background-image: url("../images/2 Guys on beach.jpg");
+        background-size: cover;
         padding: 100px 10% 0 10%;
         flex-grow: 1;
     }
 }
 
-/*Large devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #0f5099;
@@ -489,7 +427,7 @@ main {
     #hero {
         height: 600px;
         width: 100%;
-        background: url("../images/pexels-alexandre-saraiva-carniato-583650-1722028.jpg") no-repeat center center/cover;
+        background: url("../images/pexels-alexandre-saraiva-carniato-583650-1722028.jpg") no-repeat center center / cover;
     }
 
     #logo {
@@ -503,7 +441,7 @@ main {
 
     #cover-text > h3 {
         font-size: 300%;
-        top:500px;
+        top: 500px;
         color: #fafafa;
         padding-top: 200px;
     }
