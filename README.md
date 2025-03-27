@@ -6,7 +6,7 @@ At the club we provide professional surfing guidance to children and parents wit
 On this site users are able to see our class times,locations,pricing as well as receive a sign up form where the club will contact them back via email after registration. 
 The website also host a gallery where users can see pictures of the surf classes.
 
-<img src="assets/images/responsive_readme.png">
+<img src="assets/images/responsive_readme.png" alt="Responsive design layout showing the website on multiple devices">
 
 ## Features
 
@@ -18,40 +18,40 @@ The website also host a gallery where users can see pictures of the surf classes
 * The header is also a link to the home page and the nav bar indicates which page is active by underlining the active page.
 * The custom font 'Original Surfer' was selected to create a fun-easy-going atmosphere and is well suited for the website.
 
-<img src="assets/images/Header_readme.png">
+<img src="assets/images/Header_readme.png" alt="A screenshot of the website's header with navigation links, including the logo on the left and menu items on the right">
 
 ### Hero Image
 
 * The hero image is a surfer in the ocean with a text that explains to users that the ocean is where freedom begins.
 * The location "Bali" is also indicated in the cover text so users can instantly know where these events take place. 
 
-<img src="assets/images/hero_readme.png">
+<img src="assets/images/hero_readme.png" alt="A surfer riding a wave in Bali, with the text 'Where freedom begins' and the location 'Bali' displayed on the image">
 
 ### Reasons to surf
 
 * The website describes to the user why it is a good idea to join the club and all the benefits surfing provides.
 * Each reason have a fitting image accompanied with it.
 
-<img src="assets/images/reasons_readme.png">
+<img src="assets/images/reasons_readme.png" alt="A section showing various reasons to join the Family Surfing Club, each accompanied by a relevant image for visual context">
 
 ### Time and Place Bar
 
 * The website contain a bar with all the relevant information i.e time, location, price and age group.
 
-<img src="assets/images/class_times_readme.png">
+<img src="assets/images/class_times_readme.png" alt="A bar displaying information on class times, locations, pricing, and age groups available at the Family Surfing Club">
 
 ### Footer
 
 * The footer contain links to the club's social media pages if users should want more information regarding the club.
 
-<img src="assets/images/footer_readme.png">
+<img src="assets/images/footer_readme.png" alt="A screenshot of the website's footer with links to the club's social media pages">
 
 ### Gallery
 
 * The club host a gallery on their page to share the surfing experience with the public.
 * The pictures are neatly stacked together to save real estate on the page and to give the gallery a rich feeling.
   
-<img src="assets/images/Gallery_readme.png">
+<img src="assets/images/Gallery_readme.png" alt="A gallery page showcasing various images from surfing classes, with pictures neatly arranged to save space and provide a rich visual experience">
 
 ### Sign Up Form
 
@@ -59,7 +59,7 @@ The website also host a gallery where users can see pictures of the surf classes
 * This form ask the user their age catogory as well as other personal information.
 * The age catogory will be stored and users will be placed in different groups according to their age catogory.
 
-  <img src="assets/images/form_readme.png">
+ <img src="assets/images/form_readme.png" alt="A screenshot of the Family Surfing Club's sign-up form, asking for personal information and the user's age category">
 
 ## Testing
 
@@ -71,17 +71,17 @@ The website also host a gallery where users can see pictures of the surf classes
 ### HTML
 * HTML - No errors returned when validated with W3C validator
 
-<img src="assets/images/W3S HTML.png">
+<img src="assets/images/W3S HTML.png" alt="A screenshot of the W3C HTML validation result, showing that the HTML code has no errors">
 
 ### CSS
 * CSS - No errors were returned when passing through the Jigsaw validator.
 
-<img src="assets/images/w3s CSS.png">
+<img src="assets/images/w3s CSS.png" alt="A screenshot of the W3C CSS validation result, showing that the CSS code has no errors">
 
 ### Lighthouse in Devtools
 * Lighthouse in DevTools was used to test different aspects of the website and the results were acceptable.
 
-<img src="assets/images/Lighthouse.png">
+<img src="assets/images/Lighthouse.png" alt="A screenshot of Lighthouse results in Chrome DevTools, displaying a high performance and accessibility score for the Family Surfing Club website">
 
 ## Bugs
 
