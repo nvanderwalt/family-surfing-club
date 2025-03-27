@@ -12,25 +12,28 @@ The website also host a gallery where users can see pictures of the surf classes
 
 ### Header and Navigation
 
-* Featured at the top of the page is the navigation bar where the logo is positioned in the left corner. The logo is a link to the home page and can be seen on all the pages.
-* The navigation panel is to the top-right of the page. It includes access to home,gallery and sign up pages respectively and changes to a hamburger button on smaller devices.
-* The navigation is kept in simple format to ensure user-friendly application and is easy to read to improve accessibility.
-* The header is also a link to the home page and the nav bar indicates which page is active by underlining the active page.
-* The custom font 'Original Surfer' was selected to create a fun-easy-going atmosphere and is well suited for the website.
+### Header and Navigation
+
+- The **navigation bar** is located at the top of the page. The logo, positioned in the left corner, serves as a link to the home page and appears on all pages.
+- On the top-right, you'll find links to the **Home**, **Gallery**, and **Sign-Up** pages. On smaller devices, the navigation changes to a **hamburger menu** for a more compact and user-friendly experience.
+- The navigation is designed with simplicity and accessibility in mind, ensuring that users can easily navigate through the pages.
+- The **header** also links to the home page. The active page is indicated by an underline beneath the corresponding navigation link.
+- The custom font **"Original Surfer"** was selected to create a fun, easy-going atmosphere, which aligns well with the website’s surfing theme.
 
 <img src="assets/images/Header_readme.png" alt="A screenshot of the website's header with navigation links, including the logo on the left and menu items on the right">
 
 ### Hero Image
 
-* The hero image is a surfer in the ocean with a text that explains to users that the ocean is where freedom begins.
-* The location "Bali" is also indicated in the cover text so users can instantly know where these events take place. 
+- The **hero image** showcases a surfer in the ocean, with the text **"Where Freedom Begins"** displayed prominently.
+- The image also indicates the location of the club, **Bali**, making it immediately clear where the surfing lessons take place.
+
 
 <img src="assets/images/hero_readme.png" alt="A surfer riding a wave in Bali, with the text 'Where freedom begins' and the location 'Bali' displayed on the image">
 
-### Reasons to surf
+### Reasons to Surf
 
-* The website describes to the user why it is a good idea to join the club and all the benefits surfing provides.
-* Each reason have a fitting image accompanied with it.
+- The website provides compelling reasons for families to join the club and emphasizes the many benefits of surfing.
+- Each reason is paired with a relevant image to enhance user experience and provide visual context.
 
 <img src="assets/images/reasons_readme.png" alt="A section showing various reasons to join the Family Surfing Club, each accompanied by a relevant image for visual context">
 
@@ -55,9 +58,9 @@ The website also host a gallery where users can see pictures of the surf classes
 
 ### Sign Up Form
 
-* The final page is a sign up page to new users.
-* This form ask the user their age catogory as well as other personal information.
-* The age catogory will be stored and users will be placed in different groups according to their age catogory.
+- The final page is a **sign-up page** for new users.
+- This form asks for personal information, including the user's age category.
+- Users will be placed into different groups based on their age category.
 
  <img src="assets/images/form_readme.png" alt="A screenshot of the Family Surfing Club's sign-up form, asking for personal information and the user's age category">
 
@@ -95,13 +98,13 @@ The website also host a gallery where users can see pictures of the surf classes
 
 ## Deployment
 
-* The site was deployed to GitHub pages. The steps to deploy are as follows:
+The site was deployed to **GitHub Pages**. The steps to deploy are as follows:
 
-1. In Github repository, navigate to the settings tab.
-2. Select the Master Branch from the source section drop-down menu
-3. Once the master branch has been selected, the page provided the link to the completed website.
+1. Navigate to the settings tab of your GitHub repository.
+2. Select the **Master Branch** from the source section drop-down menu.
+3. Once the master branch is selected, GitHub will provide a link to the completed website.
 
-The live link can be found here - 
+You can access the live website here: https://nvanderwalt.github.io/family-surfing-club/
 
 ## Credits
 
