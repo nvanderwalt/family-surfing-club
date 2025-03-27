@@ -1,0 +1,21 @@
+{
+    "name": "Kids Surfing Club",
+    "short_name": "SurfClub",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#5bbad5",
+    "icons": [
+      {
+        "src": "assets/favicon/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/favicon/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      }
+    ]
+  }
+  
