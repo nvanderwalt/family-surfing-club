@@ -111,9 +111,9 @@ main {
 
 /* Hero section */
 #hero {
-    height: 600px;
+    min-height: 50vh;
     width: 100%;
-    background: url("../images/pexels_alexandre_saraiva_carniato.jpg") no-repeat center center / cover;
+    background: url("/assets/images/pexels_alexandre_saraiva_carniato.jpg") no-repeat center center / cover;
 }
 
 #cover-text {
@@ -147,22 +147,22 @@ main {
 }
 
 #circle-cover-bg {
-    background: url("../images/Surf-cirle.jpg") no-repeat top center / cover;
+    background: url("../images/surf_cirle.jpg") no-repeat top center / cover;
     border-radius: 50%;
     max-width: 250px;
     max-height: 250px;
 }
 
 #instructors-image {
-    background: url("../images/Instructors.jpg") no-repeat top center / cover;
+    background: url("../images/instructors.jpg") no-repeat top center / cover;
 }
 
 #health-image {
-    background: url("../images/Health.jpg") no-repeat top center / cover;
+    background: url("../images/health.jpg") no-repeat top center / cover;
 }
 
 #refresh-image {
-    background: url("../images/Jump.jpg") no-repeat top center / cover;
+    background: url("../images/jump.jpg") no-repeat top center / cover;
 }
 
 #friends-image {
@@ -170,7 +170,7 @@ main {
 }
 
 #nature-image {
-    background: url("../images/Nature.jpg") no-repeat top center / cover;
+    background: url("../images/nature.jpg") no-repeat top center / cover;
 }
 
 /* Reasons Section */
@@ -195,7 +195,7 @@ main {
 
 /* Meetup times section */
 #times {
-    background: url("../images/pexels-ishan-139144-421788.jpg") no-repeat center / cover;
+    background: url("../images/pexels_ishan.jpg") no-repeat center / cover;
     display: flex;
     flex-wrap: wrap;
 }
@@ -230,7 +230,7 @@ main {
 
 /* Form */
 #signup {
-    background-image: url("../images/pexels-earano-1350197.jpg");
+    background-image: url("../images/pexels_earano.jpg");
     background-size: cover;
     background-position: 100%;
     padding: 70px 10% 10% 10%;
@@ -412,7 +412,7 @@ main {
     }
 
     #signup {
-        background-image: url("../images/2 Guys on beach.jpg");
+        background-image: url("../images/2_guys_on_beach.jpg");
         background-size: cover;
         padding: 100px 10% 0 10%;
         flex-grow: 1;
@@ -427,7 +427,7 @@ main {
     #hero {
         height: 600px;
         width: 100%;
-        background: url("../images/pexels-alexandre-saraiva-carniato-583650-1722028.jpg") no-repeat center center / cover;
+        background: url("/assets/images/pexels_alexandre_saraiva_carniato.jpg") no-repeat center center / cover;
     }
 
     #logo {
@@ -446,3 +446,4 @@ main {
         padding-top: 200px;
     }
 }
+
