@@ -54,7 +54,7 @@ The website also host a gallery where users can see pictures of the surf classes
 * The club host a gallery on their page to share the surfing experience with the public.
 * The pictures are neatly stacked together to save real estate on the page and to give the gallery a rich feeling.
   
-<img src="assets/images/Gallery_readme.png" alt="A gallery page showcasing various images from surfing classes, with pictures neatly arranged to save space and provide a rich visual experience">
+<img src="assets/images/gallery_readme_final.png" alt="A gallery page showcasing various images from surfing classes, with pictures neatly arranged to save space and provide a rich visual experience">
 
 ### Sign Up Form
 
