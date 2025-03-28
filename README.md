@@ -20,7 +20,7 @@ The website also host a gallery where users can see pictures of the surf classes
 - The **header** also links to the home page. The active page is indicated by an underline beneath the corresponding navigation link.
 - The custom font **"Original Surfer"** was selected to create a fun, easy-going atmosphere, which aligns well with the website’s surfing theme.
 
-<img src="assets/images/Header_readme.png" alt="A screenshot of the website's header with navigation links, including the logo on the left and menu items on the right">
+<img src="assets/images/header_readme.png" alt="A screenshot of the website's header with navigation links, including the logo on the left and menu items on the right">
 
 ### Hero Image
 
@@ -54,7 +54,7 @@ The website also host a gallery where users can see pictures of the surf classes
 * The club host a gallery on their page to share the surfing experience with the public.
 * The pictures are neatly stacked together to save real estate on the page and to give the gallery a rich feeling.
   
-<img src="assets/images/Gallery_readme.png" alt="A gallery page showcasing various images from surfing classes, with pictures neatly arranged to save space and provide a rich visual experience">
+<img src="assets/images/gallery_readme.png" alt="A gallery page showcasing various images from surfing classes, with pictures neatly arranged to save space and provide a rich visual experience">
 
 ### Sign Up Form
 
