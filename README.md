@@ -74,7 +74,9 @@ The website also host a gallery where users can see pictures of the surf classes
 ### HTML
 * HTML - No errors returned when validated with W3C validator
 
-<img src="assets/images/W3S HTML.png" alt="A screenshot of the W3C HTML validation result, showing that the HTML code has no errors">
+<img src="assets/images/index_valid.png" alt="A screenshot of the W3C HTML validation result, showing that the HTML code has no errors">
+<img src="assets/images/gallery_valid.png" alt="A screenshot of the W3C HTML validation result, showing that the HTML code has no errors">
+<img src="assets/images/signup_valid.png" alt="A screenshot of the W3C HTML validation result, showing that the HTML code has no errors">
 
 ### CSS
 * CSS - No errors were returned when passing through the Jigsaw validator.
