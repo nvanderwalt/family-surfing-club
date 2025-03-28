@@ -20,7 +20,7 @@ The website also host a gallery where users can see pictures of the surf classes
 - The **header** also links to the home page. The active page is indicated by an underline beneath the corresponding navigation link.
 - The custom font **"Original Surfer"** was selected to create a fun, easy-going atmosphere, which aligns well with the website’s surfing theme.
 
-<img src="assets/images/header_readme.png" alt="A screenshot of the website's header with navigation links, including the logo on the left and menu items on the right">
+<img src="assets/images/Header_readme.png" alt="A screenshot of the website's header with navigation links, including the logo on the left and menu items on the right">
 
 ### Hero Image
 
@@ -54,7 +54,7 @@ The website also host a gallery where users can see pictures of the surf classes
 * The club host a gallery on their page to share the surfing experience with the public.
 * The pictures are neatly stacked together to save real estate on the page and to give the gallery a rich feeling.
   
-<img src="assets/images/gallery_readme.png" alt="A gallery page showcasing various images from surfing classes, with pictures neatly arranged to save space and provide a rich visual experience">
+<img src="assets/images/Gallery_readme.png" alt="A gallery page showcasing various images from surfing classes, with pictures neatly arranged to save space and provide a rich visual experience">
 
 ### Sign Up Form
 
@@ -81,12 +81,12 @@ The website also host a gallery where users can see pictures of the surf classes
 ### CSS
 * CSS - No errors were returned when passing through the Jigsaw validator.
 
-<img src="assets/images/w3s CSS.png" alt="A screenshot of the W3C CSS validation result, showing that the CSS code has no errors">
+<img src="assets/images/css_valid.png" alt="A screenshot of the W3C CSS validation result, showing that the CSS code has no errors">
 
 ### Lighthouse in Devtools
 * Lighthouse in DevTools was used to test different aspects of the website and the results were acceptable.
 
-<img src="assets/images/Lighthouse.png" alt="A screenshot of Lighthouse results in Chrome DevTools, displaying a high performance and accessibility score for the Family Surfing Club website">
+<img src="assets/images/lighthouse_readme.png" alt="A screenshot of Lighthouse results in Chrome DevTools, displaying a acceptable performance and  perfect accessibility score for the Family Surfing Club website">
 
 ## Bugs
 
